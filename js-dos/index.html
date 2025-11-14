@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>ROVER.EXE su GitHub Pages</title>
+  <link rel="stylesheet" href="js-dos.css">
+  <script src="js-dos.js"></script>
+</head>
+<body>
+  <h1>Gioco DOS: ROVER.EXE</h1>
+  <div id="dosbox" style="width: 640px; height: 400px;"></div>
+
+  <script>
+    Dos(document.getElementById("dosbox"), {
+      wdosboxUrl: "wdosbox.js"
+    }).ready(function (fs, main) {
+      fs.extract("R1MOD.zip").then(function () {
+        main(["ROVER.EXE"]);
+      });
+    });
+  </script>
+</body>
+</html>
