@@ -23,7 +23,14 @@ Il sito di riferimento è js-dos.com
 0. Comprimi la cartella in zip, ma va rinominato in `nome.jsdos`
 0. Carica nome.jsdos nella root del progetto
 0. A questo punto ho dovuto modificare l' index di js-dos modificando i percorsi in quelli locali, nell' head, le righe *crossorigin*
-0. Ho modificato `const props = Dos(document.getElementById("app"),` mettendo un url col percorso locale. Anche pathPrefix deve essere un percorso relativo.
+0. Ho modificato `const props = Dos(document.getElementById("app"),` mettendo un url col percorso locale. Anche pathPrefix deve essere un percorso relativo, il percorso in cui cercare il file jsdox.
+
+OK, funziona! 🎉🎉🎉
+
+Adesso devo modificare il file per lanciare automaticamente il gioco.<br>
+Al momento DosBox parte ma ha il supporto solo per il formato 8.3, anche se è impstata la versione 7.1. Quindi conviene rinominare le cartelle.
+
+Sono abbastanza sicuro che con un po' di impegno sia pssibile anche lanciare più giochi, se tutti compressi nello stesso file.
 
 
 **js-dos** è una libreria JavaScript che emula DOSBox nel browser. È pensata per essere facile da integrare in siti web e supporta sia giochi DOS che applicazioni Windows 9x. Ecco le sue caratteristiche principali, secondo Copilot:
