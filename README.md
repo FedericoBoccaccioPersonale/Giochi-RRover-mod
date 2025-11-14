@@ -14,8 +14,17 @@ Puoi tranquillamente scaricare dalla release o giocare on line.
 🌐 [Gioca on line](https://federicoboccacciopersonale.github.io/Giochi-Mini-collezione-JQ-2022/Mini%20collezione%20JQ%202022/public_html/index.html)
 
 # Come renderlo giocabile online
-Ho scaricato l' ultima release da https://github.com/caiiiycuk/js-dos<br>
+0. Ho scaricato l' ultima release da https://github.com/caiiiycuk/js-dos<br>
 Il sito di riferimento è js-dos.com
+
+0. Ho caricato il progetto estratto dallo zip nel mio repository.
+
+0. Ho estratto lo zip che contiene solo il gioco moddato in una cartella
+0. In quella cartella creo una sottocartela `.jsdos`
+0. Lì dentro ci va un file `dosbox.conf` che deve come minimo contenere l' autoexec di configurazione di dosbox.
+0. Comprimi la cartella in zip, ma va rinominato in `nome.jsdos`
+0. Carica nome.jsdos nella root del progetto
+
 
 **js-dos** è una libreria JavaScript che emula DOSBox nel browser. È pensata per essere facile da integrare in siti web e supporta sia giochi DOS che applicazioni Windows 9x. Ecco le sue caratteristiche principali, secondo Copilot:
 
@@ -26,7 +35,7 @@ Il sito di riferimento è js-dos.com
 - **Backend multipli**: DOSBox, DOSBox-X
 - **Versioni in WebAssembly e JavaScript puro**
 
-Ho caricato il progetto estratto dallo zip nel mio repository.
+
 
 
 # Informazioni
