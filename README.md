@@ -14,11 +14,9 @@ Puoi tranquillamente scaricare dalla release o giocare on line.
 🌐 [Gioca on line](https://federicoboccacciopersonale.github.io/Giochi-Mini-collezione-JQ-2022/Mini%20collezione%20JQ%202022/public_html/index.html)
 
 # Come renderlo giocabile online
-0. Ho scaricato l' ultima release da https://github.com/caiiiycuk/js-dos<br>
+1. Ho scaricato l' ultima release da https://github.com/caiiiycuk/js-dos<br>
 Il sito di riferimento è js-dos.com
-
 0. Ho caricato il progetto estratto dallo zip nel mio repository.
-
 0. Ho estratto lo zip che contiene solo il gioco moddato in una cartella
 0. In quella cartella creo una sottocartela `.jsdos`
 0. Lì dentro ci va un file `dosbox.conf` che deve come minimo contenere l' autoexec di configurazione di dosbox.
