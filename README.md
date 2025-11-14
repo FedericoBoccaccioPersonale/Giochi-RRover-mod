@@ -22,6 +22,7 @@ Il sito di riferimento è js-dos.com
 0. Lì dentro ci va un file `dosbox.conf` che deve come minimo contenere l' autoexec di configurazione di dosbox.
 0. Comprimi la cartella in zip, ma va rinominato in `nome.jsdos`
 0. Carica nome.jsdos nella root del progetto
+0. A questo punto ho dovuto modificare l' index di js-dos modificando i percorsi in quelli locali, nell' head, le righe *crossorigin*
 
 
 **js-dos** è una libreria JavaScript che emula DOSBox nel browser. È pensata per essere facile da integrare in siti web e supporta sia giochi DOS che applicazioni Windows 9x. Ecco le sue caratteristiche principali, secondo Copilot:
