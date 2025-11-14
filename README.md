@@ -32,7 +32,9 @@ Al momento DosBox parte ma ha il supporto solo per il formato 8.3, anche se è i
 
 E adesso **è andato tutto a rotoli!** E questo dimostra che gitHub ha **clamorosamente** fallito, perchè secondo la leggenda in caso di disastro epico è possibile tornare a un commit funzionante precedente. Be', non è possibile.
 
-Sono abbastanza sicuro che con un po' di impegno sia pssibile anche lanciare più giochi, se tutti compressi nello stesso file.
+~~Sono abbastanza sicuro che con un po' di impegno sia pssibile anche lanciare più giochi, se tutti compressi nello stesso file.~~
+
+Dato che è impossibile ricreare l' evento fortuito di prima, o forse da attribuire a potenze demoniache, dal punto di vista scientifico sono tenuto a considerarlo un evento casuale irripetibile e a dichiarare DEL TUTTO IMPOSSIBILE eseguire un gioco DOS in github page.
 
 
 **js-dos** è una libreria JavaScript che emula DOSBox nel browser. È pensata per essere facile da integrare in siti web e supporta sia giochi DOS che applicazioni Windows 9x. Ecco le sue caratteristiche principali, secondo Copilot:
@@ -44,6 +46,7 @@ Sono abbastanza sicuro che con un po' di impegno sia pssibile anche lanciare pi�
 - **Backend multipli**: DOSBox, DOSBox-X
 - **Versioni in WebAssembly e JavaScript puro**
 
+Solo che non funziona.
 
 
 
