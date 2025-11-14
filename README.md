@@ -28,7 +28,7 @@ Il sito di riferimento è js-dos.com
 OK, funziona! 🎉🎉🎉
 
 Adesso devo modificare il file per lanciare automaticamente il gioco.<br>
-Al momento DosBox parte ma ha il supporto solo per il formato 8.3, anche se è impstata la versione 7.1. Quindi conviene rinominare le cartelle.
+Al momento DosBox parte ma ha il supporto solo per il formato 8.3, anche se è impstata la versione 7.1. Quindi conviene rinominare le cartelle. Inoltre non parte in automatico.
 
 E adesso **è andato tutto a rotoli!** E questo dimostra che gitHub ha **clamorosamente** fallito, perchè secondo la leggenda in caso di disastro epico è possibile tornare a un commit funzionante precedente. Be', non è possibile.
 
@@ -52,4 +52,5 @@ Solo che non funziona.
 
 # Informazioni
 Su GitHub c' è il repository principale, su GitLab è presente il suo clone per backup.
+
 Puoi anche scaricare il gioco da Itch.
