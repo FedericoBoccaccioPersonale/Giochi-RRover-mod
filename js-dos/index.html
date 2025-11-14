@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>ROVER.EXE su GitHub Pages</title>
+  <!-- I file sono nella stessa cartella di index.html -->
   <link rel="stylesheet" href="js-dos.css">
   <script src="js-dos.js"></script>
 </head>
@@ -14,6 +15,7 @@
     Dos(document.getElementById("dosbox"), {
       wdosboxUrl: "wdosbox.js"
     }).ready(function (fs, main) {
+      // R1MOD.zip è nella stessa cartella di index.html
       fs.extract("R1MOD.zip").then(function () {
         main(["ROVER.EXE"]);
       });
