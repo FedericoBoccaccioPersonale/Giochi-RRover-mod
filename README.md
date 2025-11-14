@@ -20,8 +20,8 @@ Il sito di riferimento è js-dos.com
 0. Ho estratto lo zip che contiene solo il gioco moddato in una cartella
 0. In quella cartella creo una sottocartela `.jsdos`
 0. Lì dentro ci va un file `dosbox.conf` che deve come minimo contenere l' autoexec di configurazione di dosbox.
-0. Comprimi la cartella in zip, ma va rinominato in `nome.jsdos`
-0. Carica nome.jsdos nella root del progetto
+0. Comprimi la cartella in zip, ma va rinominato in `R1MOD.jsdos`
+0. Carica R1MOD.jsdos nella cartella della index
 0. A questo punto ho dovuto modificare l' index di js-dos modificando i percorsi in quelli locali, nell' head, le righe *crossorigin*
 0. Ho modificato `const props = Dos(document.getElementById("app"),` mettendo un url col percorso locale. Anche pathPrefix deve essere un percorso relativo, il percorso in cui cercare il file jsdox.
 
@@ -29,6 +29,8 @@ OK, funziona! 🎉🎉🎉
 
 Adesso devo modificare il file per lanciare automaticamente il gioco.<br>
 Al momento DosBox parte ma ha il supporto solo per il formato 8.3, anche se è impstata la versione 7.1. Quindi conviene rinominare le cartelle.
+
+E adesso **è andato tutto a rotoli!** E questo dimostra che gitHub ha **clamorosamente** fallito, perchè secondo la leggenda in caso di disastro epico è possibile tornare a un commit funzionante precedente. Be', non è possibile.
 
 Sono abbastanza sicuro che con un po' di impegno sia pssibile anche lanciare più giochi, se tutti compressi nello stesso file.
 
