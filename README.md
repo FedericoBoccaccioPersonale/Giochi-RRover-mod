@@ -31,11 +31,14 @@ OK, funziona! 🎉🎉🎉
 Adesso devo modificare il file per lanciare automaticamente il gioco.<br>
 Al momento DosBox parte ma ha il supporto solo per il formato 8.3, anche se è impostata la versione 7.1 di DOS. Quindi conviene rinominare le cartelle.
 
-E adesso **è andato tutto a rotoli!** E questo dimostra che gitHub ha **clamorosamente** fallito, perchè secondo la leggenda in caso di disastro epico è possibile tornare a un commit funzionante precedente. Be', non è possibile.
+E adesso **è andato tutto a rotoli!** E questo dimostra che gitHub ha **clamorosamente** fallito, perchè secondo la leggenda in caso di disastro epico è possibile tornare a un commit funzionante precedente. Be', non è possibile. Non senza scaricarli.
 
 ~~Sono abbastanza sicuro che con un po' di impegno sia possibile anche lanciare più giochi, se tutti compressi nello stesso file.~~
 
-Dato che è impossibile ricreare l' evento fortuito di prima, o forse da attribuire a potenze demoniache, dal punto di vista scientifico sono tenuto a considerarlo un evento casuale irripetibile e a dichiarare DEL TUTTO IMPOSSIBILE eseguire un gioco DOS in github page.
+Sembra che il file compresso debba necessariamente essere uno zip rinominato in jsdos e che a venire compressa debba essere una cartella, che verrà quindi mostrata come tale, non è possibile comprimere direttamente i file per evitare la cartella.<br>
+Non sembra tuttavia esserci modo per lanciare automaticamente un gioco o anche l' emulatore.
+
+Se sai come si fa, aiutami!
 
 
 **js-dos** è una libreria JavaScript che emula DOSBox nel browser. È pensata per essere facile da integrare in siti web e supporta sia giochi DOS che applicazioni Windows 9x. Ecco le sue caratteristiche principali, secondo Copilot:
@@ -47,7 +50,7 @@ Dato che è impossibile ricreare l' evento fortuito di prima, o forse da attribu
 - **Backend multipli**: DOSBox, DOSBox-X
 - **Versioni in WebAssembly e JavaScript puro**
 
-Solo che non funziona.
+Solo che non funziona a dovere.
 
 
 
