@@ -4,20 +4,23 @@ https://federicoboccaccio.wordpress.com/rrover-mod/
 Questa è una mod per Rescue Rover
 
 # Importante
-⚠️ I file "Source code (.zip)" e "Source code (.tar.gz)" sono generati automaticamente da GitHub e **non contengono il gioco**.  
+⚠️ I file "Source code (.zip)" e "Source code (.tar.gz)" sono generati automaticamente da GitHub.  
 Scarica solo i file **rar** per ottenere la versione funzionante.
 
 
 # Download
 [Ultima versione](https://github.com/FedericoBoccaccioPersonale/Giochi-RRover-mod/releases/latest) (tutte le piattaforme disponibili)
 
-# Come (non) renderlo giocabile online 🤬
+# Come renderlo giocabile online 🤬 ma con estrema fatica
+[🌐 Gioca online](https://federicoboccacciopersonale.github.io/Giochi-RRover-mod/) Solo su GitHub.
+A causa dele attuali limitazioni, dovrai seguire alcune istruzioni.
+
 1. Ho scaricato l' ultima release da https://github.com/caiiiycuk/js-dos<br>
 Il sito di riferimento è js-dos.com
 0. Ho caricato il progetto estratto dallo zip nel mio repository
 0. Ho estratto lo zip che contiene solo il gioco moddato in una cartella
 0. In quella cartella creo una sottocartela `.jsdos`
-0. Lì dentro ci va un file `dosbox.conf` che deve come minimo contenere l' autoexec di configurazione di dosbox.
+0. Lì dentro ci va un file `dosbox.conf` che deve come minimo contenere l' autoexec di configurazione di dosbox
 0. Comprimi la cartella in zip, ma va rinominato in `R1MOD.jsdos`
 0. Carica R1MOD.jsdos nella cartella della index
 0. A questo punto ho dovuto modificare l' index di js-dos modificando i percorsi in quelli locali, nell' head, le righe *crossorigin*
