@@ -13,7 +13,8 @@ Scarica solo i file **rar** per ottenere la versione funzionante.
 
 # Come renderlo giocabile online 🤬 ma con estrema fatica
 [🌐 Gioca online](https://federicoboccacciopersonale.github.io/Giochi-RRover-mod/) Solo su GitHub.
-A causa dele attuali limitazioni, dovrai seguire alcune istruzioni.
+A causa dele attuali limitazioni, dovrai seguire alcune istruzioni.<br>
+Attualmente "p6" è l' ultima versione funzionante.
 
 1. Ho scaricato l' ultima release da https://github.com/caiiiycuk/js-dos<br>
 Il sito di riferimento è js-dos.com
@@ -58,4 +59,5 @@ Solo che non funziona a dovere.
 Su GitHub c' è il repository principale, su GitLab è presente il suo clone per backup.
 
 Puoi anche scaricare il gioco da Itch.
+
 
